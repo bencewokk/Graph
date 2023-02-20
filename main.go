@@ -19,18 +19,6 @@ type Edge struct {
 	To     int
 	Weight int
 }
-
-func in(haystack []int, needle int) bool {
-	rturn := false
-	for i := 0; i < haystack[i]; i++ {
-		if haystack[i] == needle {
-			rturn = true
-			break
-		}
-	}
-	return rturn
-}
-
 func input() []int {
 	var from, to, weight int
 	fmt.Scan(&from, &to, &weight)
